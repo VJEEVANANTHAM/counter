@@ -12,7 +12,7 @@ function App() {
   return (
     <>
     <h1>Counter App</h1>
-    <p>count: `{count}`</p>
+    <p>count: {count}</p>
     <Button onclick={inc} value='Incremet'></Button>
     <Button onclick={dec} value='Decrement'></Button>
 
